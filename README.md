@@ -12,8 +12,8 @@ This repo can be used to run Vault with Active Directory secrets engine.
 
 - create box with AD 
 
-$ vagrant up
+`$ vagrant up`
 
 - run Vault dev server with AD secrets engine
 
-$ ./repro.sh
+`$ ./repro.sh`
