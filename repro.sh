@@ -10,7 +10,7 @@ vault login root
 
 vault secrets enable ad
 
-vault write ad/config binddn=vagrant bindpass=vagrant url=ldap://WindowsDC.hashicorp.com:10389 userdn='dc=hashicorp,dc=com' insecure_tls=true
+vault write ad/config binddn=vagrant bindpass=vagrant url=ldaps://WindowsDC.hashicorp.com:10636 userdn='dc=hashicorp,dc=com' insecure_tls=true
 
 vault write ad/library/accounting-team service_account_names=catalina@hashicorp.com,bob@hashicorp.com 
 
